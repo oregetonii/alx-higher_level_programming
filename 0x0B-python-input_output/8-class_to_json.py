@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 8-class_to_json
+Module 8-class_to_json.
 
 Contains function that
 returns dictionary description with simple data struct
@@ -10,9 +10,11 @@ for JSON serialization of an obj
 
 
 def class_to_json(obj):
-    """Returns dictionary description with simple data struct
-       (list, dictionary, dictionary, string)
-       for JSON serialization of an obj
+    """
+    Returns dictionary description with simple data struct
+    (list, dictionary, dictionary, string)
+    for JSON serialization of an obj
+
     Args:
         obj: python obj
     """
