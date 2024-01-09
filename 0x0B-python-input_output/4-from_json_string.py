@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 4- from_json_string
+Module 4-from_json_string
 
 Contains function that returns obj represented by JSON string
 """
@@ -15,4 +15,4 @@ def from_json_string(my_str):
     """
     import json
 
-    return json.load(my_str)
+    return json.loads(my_str)
