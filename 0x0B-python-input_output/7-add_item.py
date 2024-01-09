@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 """
-Module 7-add_item
+Module 7-add_item.
 
 Contains function that adds args to Python obj and saves to JSON file
 
-# run with ./7-add_item.py
-#
-# cat add_item.json ; echo ""
-# expect output: []
-#
-# ./7-add_item.py some random args
-# cat add_item.json ; echo ""
-# expect output: ["some", "random", "args"]
+run with ./7-add_item.py
+
+cat add_item.json ; echo ""
+expect output: []
+
+./7-add_item.py some random args
+cat add_item.json ; echo ""
+expect output: ["some", "random", "args"]
 
 """
 
